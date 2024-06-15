@@ -1,73 +1,78 @@
 <!DOCTYPE html>
-<html  lang="zh">
-  <head >
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' *.baidu.com  *.bdimg.com; style-src 'self' 'unsafe-inline' *.baidu.com  *.bdimg.com;script-src 'self' 'unsafe-eval' 'unsafe-inline' *.baidu.com  *.bdimg.com;img-src  'self'  'unsafe-inline'  'unsafe-eval' *.baidu.com  *.bdimg.com">
-    <!-- uc强制竖屏 -->
-    <meta name="screen-orientation" content="portrait">
-    <!-- UC强制全屏 -->
-    <meta name="full-screen" content="yes">
-    <!-- UC应用模式 -->
-    <meta name="browsermode" content="application">
-    <!-- QQ强制竖屏 -->
-    <meta name="x5-orientation" content="portrait">
-    <!-- QQ强制全屏 -->
-    <meta name="x5-fullscreen" content="true">
-    <!-- QQ应用模式 -->
-    <meta name="x5-page-mode" content="app">
-    <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
-    <meta name="HandheldFriendly" content="true">
-    <!-- 微软的老式浏览器 -->
-    <meta name="MobileOptimized" content="320">
-    <meta name="author" content="YP">
-    <meta name="Keywords" content="大鹏建筑设计事务所,事务所，建筑设计，设计院，设计公司">
-    <meta name="Description" content="大鹏建筑设计事务所的一般介绍，作品介绍，公司官网，人才招聘，联系方式">
-    <title>大鹏建筑设计事务所-大鹏建筑设计事务所</title>
-    <link rel="shortcut icon" href="static/favicon.png" />
-    <style> 
-      #fullpage .fp-tableCell {
-                display: block;
-                height: 100% !important;
-                position: relative;
-                overflow: hidden;
-      }
-    </style>
-    <link rel="stylesheet" href="static/Public/2019/css/swiper.min.css">   
-    <script src="static/Public/2019/js/jquery-1.8.3.min.js"></script>
-    <script src="static/Public/2019/js/swiper.min.js"> </script>
-    <link rel="stylesheet" href="static/Public/2019/css/reset.css">
-    <link rel="stylesheet" href="static/Public/2019/css/animate.css">
-    <link rel="stylesheet" href="static/Public/2019/css/public.css">
-    <link rel="stylesheet" href="static/Public/2019/css/style.css">
-    <link rel="stylesheet" href="static/Public/2019/css/index.css">
-    <script src="static/Public/2019/js/rem.js"></script>
-    <script src="static/Public/2019/js/wow.min.js"></script>
-    <script src="static/Public/2019/js/my-js.js"></script>
-  </head>
-  <body >
-    <!--顶部导航-->
-    <!--PC导航-->
-    <!-- <div id="header" class="on" style=background-color:rgba(0,0,0,0.3)> -->
-    <div id="header" class="on">
-      <div class="header-con clearfix">
-        <h1 class="logo" title="大鹏建筑设计事务所">
-          <a href="">
-            <img src="static/Public/2019/img/大鹏BIM创意工作室-logo.png" alt="大鹏建筑设计事务所" class="logo2">
-            <!-- <img src="static/Public/2019/img/logo1.png" alt="大鹏建筑设计事务所" class="logo2"> -->
-          </a>
-        </h1>
-        <div class="r-b clearfix">
-          <!--旧导航 style="background-color:green;opacity: 0.5"-->
-          <div class="pc-nav">
-            <ul class="clearfix">
-              <li class="on">
-                <a href="">首页<em></em></a>
-              </li>
-              <li >
-                <!-- <a href="index.php%3Fa=index&amp;m=About&amp;id=25.html">概况<i class="iconfont">&#xe612;</i><em></em></a>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self' *.baidu.com  *.bdimg.com; style-src 'self' 'unsafe-inline' *.baidu.com  *.bdimg.com;script-src 'self' 'unsafe-eval' 'unsafe-inline' *.baidu.com  *.bdimg.com;img-src  'self'  'unsafe-inline'  'unsafe-eval' *.baidu.com  *.bdimg.com">
+  <!-- uc强制竖屏 -->
+  <meta name="screen-orientation" content="portrait">
+  <!-- UC强制全屏 -->
+  <meta name="full-screen" content="yes">
+  <!-- UC应用模式 -->
+  <meta name="browsermode" content="application">
+  <!-- QQ强制竖屏 -->
+  <meta name="x5-orientation" content="portrait">
+  <!-- QQ强制全屏 -->
+  <meta name="x5-fullscreen" content="true">
+  <!-- QQ应用模式 -->
+  <meta name="x5-page-mode" content="app">
+  <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+  <meta name="HandheldFriendly" content="true">
+  <!-- 微软的老式浏览器 -->
+  <meta name="MobileOptimized" content="320">
+  <meta name="author" content="YP">
+  <meta name="Keywords" content="大鹏建筑设计事务所,事务所，建筑设计，设计院，设计公司">
+  <meta name="Description" content="大鹏建筑设计事务所的一般介绍，作品介绍，公司官网，人才招聘，联系方式">
+  <title>大鹏建筑设计事务所-大鹏建筑设计事务所</title>
+  <link rel="shortcut icon"  href="assets/favicon.png" />
+  <style>
+    #fullpage .fp-tableCell {
+      display: block;
+      height: 100% !important;
+      position: relative;
+      overflow: hidden;
+    }
+  </style>
+  <link rel="stylesheet" href="assets/Public/2019/css/swiper.min.css">
+  <script src="assets/Public/2019/js/jquery-1.8.3.min.js"></script>
+  <script src="assets/Public/2019/js/swiper.min.js"> </script>
+  <link rel="stylesheet" href="assets/Public/2019/css/reset.css">
+  <link rel="stylesheet" href="assets/Public/2019/css/animate.css">
+  <link rel="stylesheet" href="assets/Public/2019/css/public.css">
+  <link rel="stylesheet" href="assets/Public/2019/css/style.css">
+  <link rel="stylesheet" href="assets/Public/2019/css/index.css">
+  <script src="assets/Public/2019/js/rem.js"></script>
+  <script src="assets/Public/2019/js/wow.min.js"></script>
+  <script src="assets/Public/2019/js/my-js.js"></script>
+</head>
+
+<body>
+  <!--顶部导航-->
+  <!--PC导航-->
+  <!-- <div id="header" class="on" style=background-color:rgba(0,0,0,0.3)> -->
+  <div id="header" class="on">
+    <div class="header-con clearfix">
+      <h1 class="logo" title="大鹏建筑设计事务所">
+        <a href="">
+          <!-- <img src="assets/Public/2019/img/大鹏BIM创意工作室-logo.png" alt="大鹏建筑设计事务所" class="logo2" > -->
+          <!-- <img src="assets/Public/2019/img/logo1.png" alt="大鹏建筑设计事务所" class="logo2"> -->
+          <img src="assets/Public/2019/img/大鹏BIM创意工作室-logo.png" alt="大鹏建筑设计事务所" class="logo2" >
+        </a>
+      </h1>
+      <div class="r-b clearfix">
+        <!--旧导航 style="background-color:green;opacity: 0.5"-->
+        <div class="pc-nav">
+          <ul class="clearfix">
+            <li class="on">
+              <a href="">首页<em></em></a>
+            </li>
+            <li>
+              <!-- <a href="index.php%3Fa=index&amp;m=About&amp;id=25.html">概况<i class="iconfont">&#xe612;</i><em></em></a>
                 <div class="two-column">
                   <a href="index.php%3Fa=index&amp;m=About&amp;id=25.html">公司简介</a>
                   <a href="index.php%3Fa=index&amp;m=Team&amp;id=62.html">团队人物</a>
@@ -78,20 +83,20 @@
                   <a href="index.php%3Fa=index&amp;m=Customer&amp;id=77.html">主要客户</a>
                   <a href="index.php%3Fa=index&amp;m=Panner&amp;id=112.html">合作伙伴</a>
                 </div> -->
-                <a href="">概况<i class="iconfont">&#xe612;</i><em></em></a>
-                <div class="two-column">
-                  <a href="">公司简介</a>
-                  <a href="">团队人物</a>
-                  <a href="">组织架构</a>
-                  <a href="">业务范围</a>
-                  <a href="">获奖荣誉</a>
-                  <a href="">教学科研</a>
-                  <a href="">主要客户</a>
-                  <a href="">合作伙伴</a>
-                </div>
-              </li>
-              <li >
-                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=21.html">作品<i class="iconfont">&#xe612;</i><em></em></a>
+              <a href="">概况<i class="iconfont">&#xe612;</i><em></em></a>
+              <div class="two-column">
+                <a href="">公司简介</a>
+                <a href="">团队人物</a>
+                <a href="">组织架构</a>
+                <a href="">业务范围</a>
+                <a href="">获奖荣誉</a>
+                <a href="">教学科研</a>
+                <a href="">主要客户</a>
+                <a href="">合作伙伴</a>
+              </div>
+            </li>
+            <li>
+              <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=21.html">作品<i class="iconfont">&#xe612;</i><em></em></a>
                 <div class="two-column">
                   <a href="index.php%3Fa=index&amp;m=Product&amp;id=36.html">文化博览</a>
                   <a href="index.php%3Fa=index&amp;m=Product&amp;id=37.html">教育</a>
@@ -107,37 +112,37 @@
                   <a href="index.php%3Fa=index&amp;m=Product&amp;id=108.html">综合体</a>
                   <a href="index.php%3Fa=index&amp;m=Product&amp;id=127.html">其它</a>
                 </div> -->
-                <a href="">作品<i class="iconfont">&#xe612;</i><em></em></a>
-                <div class="two-column">
-                  <a href="">文化博览</a>
-                  <a href="">教育</a>
-                  <a href="">超高层</a>
-                  <a href="">体育</a>
-                  <a href="">会展</a>
-                  <a href="">城市设计</a>
-                  <a href="">医院</a>
-                  <a href="">住宅</a>
-                  <a href="">办公</a>
-                  <a href="">酒店</a>
-                  <a href="">轨道交通</a>
-                  <a href="">综合体</a>
-                  <a href="">其它</a>
-                </div>
-              </li>
-              <li >
-                <!-- <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html">新闻<i class="iconfont">&#xe612;</i><em></em></a>
+              <a href="">作品<i class="iconfont">&#xe612;</i><em></em></a>
+              <div class="two-column">
+                <a href="">文化博览</a>
+                <a href="">教育</a>
+                <a href="">超高层</a>
+                <a href="">体育</a>
+                <a href="">会展</a>
+                <a href="">城市设计</a>
+                <a href="">医院</a>
+                <a href="">住宅</a>
+                <a href="">办公</a>
+                <a href="">酒店</a>
+                <a href="">轨道交通</a>
+                <a href="">综合体</a>
+                <a href="">其它</a>
+              </div>
+            </li>
+            <li>
+              <!-- <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html">新闻<i class="iconfont">&#xe612;</i><em></em></a>
                 <div class="two-column">
                   <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html">新闻动态</a>
                   <a href="index.php%3Fa=index&amp;m=Article&amp;id=53.html">中标喜讯</a>
                 </div> -->
-                <a href="">新闻<i class="iconfont">&#xe612;</i><em></em></a>
-                <div class="two-column">
-                  <a href="">新闻动态</a>
-                  <a href="">中标喜讯</a>
-                </div>
-              </li>
-              <li >
-                <!-- <a href="index.php%3Fa=index&amp;m=Party&amp;id=71.html">党建<i class="iconfont">&#xe612;</i><em></em></a>
+              <a href="">新闻<i class="iconfont">&#xe612;</i><em></em></a>
+              <div class="two-column">
+                <a href="">新闻动态</a>
+                <a href="">中标喜讯</a>
+              </div>
+            </li>
+            <li>
+              <!-- <a href="index.php%3Fa=index&amp;m=Party&amp;id=71.html">党建<i class="iconfont">&#xe612;</i><em></em></a>
                 <div class="two-column">
                   <a href="index.php%3Fa=index&amp;m=Party&amp;id=71.html">组织架构</a>
                   <a href="index.php%3Fa=index&amp;m=Party&amp;id=73.html">规章制度</a>
@@ -145,49 +150,49 @@
                   <a href="index.php%3Fa=index&amp;m=Party&amp;id=74.html">理论学习</a>
                   <a href="index.php%3Fa=index&amp;m=Party&amp;id=89.html">组织工作</a>
                 </div> -->
-                <a href="">党建<i class="iconfont">&#xe612;</i><em></em></a>
-                <div class="two-column">
-                  <a href="">组织架构</a>
-                  <a href="">规章制度</a>
-                  <a href="">党建动态</a>
-                  <a href="">理论学习</a>
-                  <a href="">组织工作</a>
-                </div>
-              </li>
-              <li >
-                <!-- <a href="index.php%3Fa=index&amp;m=Recruit&amp;id=55.html">招聘<i class="iconfont">&#xe612;</i><em></em></a>
+              <a href="">党建<i class="iconfont">&#xe612;</i><em></em></a>
+              <div class="two-column">
+                <a href="">组织架构</a>
+                <a href="">规章制度</a>
+                <a href="">党建动态</a>
+                <a href="">理论学习</a>
+                <a href="">组织工作</a>
+              </div>
+            </li>
+            <li>
+              <!-- <a href="index.php%3Fa=index&amp;m=Recruit&amp;id=55.html">招聘<i class="iconfont">&#xe612;</i><em></em></a>
                 <div class="two-column">
                   <a href="index.php%3Fa=index&amp;m=Recruit&amp;id=55.html">招聘资讯</a>
                 </div> -->
-                <a href="">招聘<i class="iconfont">&#xe612;</i><em></em></a>
-                <div class="two-column">
-                  <a href="">招聘资讯</a>
-                </div>
-              </li>
-              <li >
-                <!-- <a href="index.php%3Fa=index&amp;m=Page&amp;id=58.html">联系<i class="iconfont">&#xe612;</i><em></em></a>
+              <a href="">招聘<i class="iconfont">&#xe612;</i><em></em></a>
+              <div class="two-column">
+                <a href="">招聘资讯</a>
+              </div>
+            </li>
+            <li>
+              <!-- <a href="index.php%3Fa=index&amp;m=Page&amp;id=58.html">联系<i class="iconfont">&#xe612;</i><em></em></a>
                 <div class="two-column">
                   <a href="index.php%3Fa=index&amp;m=Page&amp;id=58.html">业务联系</a>
                 </div> -->
-                <a href="">联系<i class="iconfont">&#xe612;</i><em></em></a>
-                <div class="two-column">
-                  <a href="">业务联系</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!--旧导航-->
-          <!--            <div class="pc-menu-btn">-->
-          <!--                <i class="iconfont">&#xe663;</i>-->
-          <!--            </div>-->
-          <div class="search-btn">
-            <i class="iconfont">&#xe718;</i>
-          </div>
-          <div class="menu-btn"><i class="iconfont">&#xe663;</i></div>
+              <a href="">联系<i class="iconfont">&#xe612;</i><em></em></a>
+              <div class="two-column">
+                <a href="">业务联系</a>
+              </div>
+            </li>
+          </ul>
         </div>
+        <!--旧导航-->
+        <!--            <div class="pc-menu-btn">-->
+        <!--                <i class="iconfont">&#xe663;</i>-->
+        <!--            </div>-->
+        <div class="search-btn">
+          <i class="iconfont">&#xe718;</i>
+        </div>
+        <div class="menu-btn"><i class="iconfont">&#xe663;</i></div>
       </div>
-      <!--    新导航-->
-      <!-- <div class="pc-nav-new">
+    </div>
+    <!--    新导航-->
+    <!-- <div class="pc-nav-new">
         <ul>
           <li class="on">
             <a href="index.php.html">首页<em></em></a>
@@ -248,17 +253,17 @@
           </li>
         </ul>
       </div> -->
-      <!--    新导航-->
-    </div>
-    <!--移动导航-->
-    <div id="Navigation">
-      <div class="bg"></div>
-      <ul>
-        <li class="on">
-          <a href=""><span>首页</span></a>
-        </li>
-        <li>
-          <!-- <a href="index.php%3Fa=index&amp;m=About&amp;id=25.html"><span>概况</span></a>
+    <!--    新导航-->
+  </div>
+  <!--移动导航-->
+  <div id="Navigation">
+    <div class="bg"></div>
+    <ul>
+      <li class="on">
+        <a href=""><span>首页</span></a>
+      </li>
+      <li>
+        <!-- <a href="index.php%3Fa=index&amp;m=About&amp;id=25.html"><span>概况</span></a>
           <em class="iconfont" tabindex="0" >&#xe621;</em>
           <div class="two-column">
             <span class="return-btn iconfont">&#xe623;</span>
@@ -271,22 +276,22 @@
             <a href="index.php%3Fa=index&amp;m=Customer&amp;id=77.html">主要客户</a>
             <a href="index.php%3Fa=index&amp;m=Panner&amp;id=112.html">合作伙伴</a>
           </div> -->
-          <a href=""><span>概况</span></a>
-          <em class="iconfont" tabindex="0" >&#xe621;</em>
-          <div class="two-column">
-            <span class="return-btn iconfont">&#xe623;</span>
-            <a href="">公司简介</a>
-            <a href="">团队人物</a>
-            <a href="">组织架构</a>
-            <a href="">业务范围</a>
-            <a href="">获奖荣誉</a>
-            <a href="">教学科研</a>
-            <a href="">主要客户</a>
-            <a href="">合作伙伴</a>
-          </div>
-        </li>
-        <li>
-          <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=21.html"><span>作品</span></a>
+        <a href=""><span>概况</span></a>
+        <em class="iconfont" tabindex="0">&#xe621;</em>
+        <div class="two-column">
+          <span class="return-btn iconfont">&#xe623;</span>
+          <a href="">公司简介</a>
+          <a href="">团队人物</a>
+          <a href="">组织架构</a>
+          <a href="">业务范围</a>
+          <a href="">获奖荣誉</a>
+          <a href="">教学科研</a>
+          <a href="">主要客户</a>
+          <a href="">合作伙伴</a>
+        </div>
+      </li>
+      <li>
+        <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=21.html"><span>作品</span></a>
           <em class="iconfont" tabindex="0" >&#xe621;</em>
           <div class="two-column">
             <span class="return-btn iconfont">&#xe623;</span>
@@ -304,43 +309,43 @@
             <a href="index.php%3Fa=index&amp;m=Product&amp;id=108.html">综合体</a>
             <a href="index.php%3Fa=index&amp;m=Product&amp;id=127.html">其它</a>
           </div> -->
-          <a href=""><span>作品</span></a>
-          <em class="iconfont" tabindex="0" >&#xe621;</em>
-          <div class="two-column">
-            <span class="return-btn iconfont">&#xe623;</span>
-            <a href="">文化博览</a>
-            <a href="">教育</a>
-            <a href="">超高层</a>
-            <a href="">体育</a>
-            <a href="">会展</a>
-            <a href="">城市设计</a>
-            <a href="">医院</a>
-            <a href="">住宅</a>
-            <a href="">办公</a>
-            <a href="">酒店</a>
-            <a href="">轨道交通</a>
-            <a href="">综合体</a>
-            <a href="">其它</a>
-          </div>
-        </li>
-        <li>
-          <!-- <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html"><span>新闻</span></a>
+        <a href=""><span>作品</span></a>
+        <em class="iconfont" tabindex="0">&#xe621;</em>
+        <div class="two-column">
+          <span class="return-btn iconfont">&#xe623;</span>
+          <a href="">文化博览</a>
+          <a href="">教育</a>
+          <a href="">超高层</a>
+          <a href="">体育</a>
+          <a href="">会展</a>
+          <a href="">城市设计</a>
+          <a href="">医院</a>
+          <a href="">住宅</a>
+          <a href="">办公</a>
+          <a href="">酒店</a>
+          <a href="">轨道交通</a>
+          <a href="">综合体</a>
+          <a href="">其它</a>
+        </div>
+      </li>
+      <li>
+        <!-- <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html"><span>新闻</span></a>
           <em class="iconfont" tabindex="0" >&#xe621;</em>
           <div class="two-column">
             <span class="return-btn iconfont">&#xe623;</span>
             <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html">新闻动态</a>
             <a href="index.php%3Fa=index&amp;m=Article&amp;id=53.html">中标喜讯</a>
           </div> -->
-          <a href=""><span>新闻</span></a>
-          <em class="iconfont" tabindex="0" >&#xe621;</em>
-          <div class="two-column">
-            <span class="return-btn iconfont">&#xe623;</span>
-            <a href="">新闻动态</a>
-            <a href="">中标喜讯</a>
-          </div>
-        </li>
-        <li>
-          <!-- <a href="index.php%3Fa=index&amp;m=Party&amp;id=71.html"><span>党建</span></a>
+        <a href=""><span>新闻</span></a>
+        <em class="iconfont" tabindex="0">&#xe621;</em>
+        <div class="two-column">
+          <span class="return-btn iconfont">&#xe623;</span>
+          <a href="">新闻动态</a>
+          <a href="">中标喜讯</a>
+        </div>
+      </li>
+      <li>
+        <!-- <a href="index.php%3Fa=index&amp;m=Party&amp;id=71.html"><span>党建</span></a>
           <em class="iconfont" tabindex="0" >&#xe621;</em>
           <div class="two-column">
             <span class="return-btn iconfont">&#xe623;</span>
@@ -350,49 +355,49 @@
             <a href="index.php%3Fa=index&amp;m=Party&amp;id=74.html">理论学习</a>
             <a href="index.php%3Fa=index&amp;m=Party&amp;id=89.html">组织工作</a>
           </div> -->
-          <a href=""><span>党建</span></a>
-          <em class="iconfont" tabindex="0" >&#xe621;</em>
-          <div class="two-column">
-            <span class="return-btn iconfont">&#xe623;</span>
-            <a href="">组织架构</a>
-            <a href="">规章制度</a>
-            <a href="">党建动态</a>
-            <a href="">理论学习</a>
-            <a href="">组织工作</a>
-          </div>
-        </li>
-        <li>
-          <!-- <a href="index.php%3Fa=index&amp;m=Recruit&amp;id=55.html"><span>招聘</span></a>
+        <a href=""><span>党建</span></a>
+        <em class="iconfont" tabindex="0">&#xe621;</em>
+        <div class="two-column">
+          <span class="return-btn iconfont">&#xe623;</span>
+          <a href="">组织架构</a>
+          <a href="">规章制度</a>
+          <a href="">党建动态</a>
+          <a href="">理论学习</a>
+          <a href="">组织工作</a>
+        </div>
+      </li>
+      <li>
+        <!-- <a href="index.php%3Fa=index&amp;m=Recruit&amp;id=55.html"><span>招聘</span></a>
           <em class="iconfont" tabindex="0" >&#xe621;</em>
           <div class="two-column">
             <span class="return-btn iconfont">&#xe623;</span>
             <a href="index.php%3Fa=index&amp;m=Recruit&amp;id=55.html">招聘资讯</a>
           </div> -->
-          <a href=""><span>招聘</span></a>
-          <em class="iconfont" tabindex="0" >&#xe621;</em>
-          <div class="two-column">
-            <span class="return-btn iconfont">&#xe623;</span>
-            <a href="">招聘资讯</a>
-          </div>
-        </li>
-        <li>
-          <!-- <a href="index.php%3Fa=index&amp;m=Page&amp;id=58.html"><span>联系</span></a>
+        <a href=""><span>招聘</span></a>
+        <em class="iconfont" tabindex="0">&#xe621;</em>
+        <div class="two-column">
+          <span class="return-btn iconfont">&#xe623;</span>
+          <a href="">招聘资讯</a>
+        </div>
+      </li>
+      <li>
+        <!-- <a href="index.php%3Fa=index&amp;m=Page&amp;id=58.html"><span>联系</span></a>
           <em class="iconfont" tabindex="0" >&#xe621;</em>
           <div class="two-column">
             <span class="return-btn iconfont">&#xe623;</span>
             <a href="index.php%3Fa=index&amp;m=Page&amp;id=58.html">业务联系</a>
           </div> -->
-          <a href=""><span>联系</span></a>
-          <em class="iconfont" tabindex="0" >&#xe621;</em>
-          <div class="two-column">
-            <span class="return-btn iconfont">&#xe623;</span>
-            <a href="">业务联系</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <!--搜索框-->
-    <!-- <div id="search-box">
+        <a href=""><span>联系</span></a>
+        <em class="iconfont" tabindex="0">&#xe621;</em>
+        <div class="two-column">
+          <span class="return-btn iconfont">&#xe623;</span>
+          <a href="">业务联系</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!--搜索框-->
+  <!-- <div id="search-box">
       <div class="bg"></div>
       <form action="http://www.scutad.com.cn/index.php?a=search&amp;m=Index" method="post">
         <span class="off">
@@ -405,1060 +410,1122 @@
         <input type="hidden" name="__hash__" value="6666cd76f96956469e7be39d750cc7d9_01942038bc5b1ce53cc8ed96feaac6d1" />
       </form>
     </div> -->
-    <div id="search-box">
-      <div class="bg"></div>
-      <form action="?a=search&amp;m=Index" method="post">
-        <span class="off">
-          <i class="iconfont">&#xeaf2;</i>
-        </span>
-        <input type="text" name="keyword" value="" placeholder="请输入搜索的内容">
-        <button type="submit">
-          <i class="iconfont">&#xe718;</i>
-        </button>
-        <input type="hidden" name="__hash__" value="6666cd76f96956469e7be39d750cc7d9_01942038bc5b1ce53cc8ed96feaac6d1" />
-      </form>
-    </div>
-    <!--首页内容-->
-    <link rel="stylesheet" href="static/Public/2019/css/jquery.fullPage.css">
-    <script src="static/Public/2019/js/jquery.fullPage.min.js"></script>
-    <div id="fullpage">
-      <div class="section">
-        <!--首页轮播-->
-        <!--PC首页轮播-->
-        <div class="index-banner banner-pc" id="index-banner-pc">
-          <ul class="swiper-wrapper">
-            <li class="swiper-slide" style="background: url('static/YP/人民医院效果.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                  <h5></h5>
-                </div>
+  <div id="search-box">
+    <div class="bg"></div>
+    <form action="?a=search&amp;m=Index" method="post">
+      <span class="off">
+        <i class="iconfont">&#xeaf2;</i>
+      </span>
+      <input type="text" name="keyword" value="" placeholder="请输入搜索的内容">
+      <button type="submit">
+        <i class="iconfont">&#xe718;</i>
+      </button>
+      <input type="hidden" name="__hash__" value="6666cd76f96956469e7be39d750cc7d9_01942038bc5b1ce53cc8ed96feaac6d1" />
+    </form>
+  </div>
+  <!--首页内容-->
+  <link rel="stylesheet" href="assets/Public/2019/css/jquery.fullPage.css">
+  <script src="assets/Public/2019/js/jquery.fullPage.min.js"></script>
+  <div id="fullpage">
+    <div class="section">
+      <!--首页轮播-->
+      <!--PC首页轮播-->
+      <div class="index-banner banner-pc" id="index-banner-pc">
+        <ul class="swiper-wrapper">
+          <!-- <li class="swiper-slide"
+            style="background: url('assets/YP/人民医院效果.jpg') no-repeat center;background-size: cover;"> -->
+          <li class="swiper-slide"
+            style="background: url('assets/YP/人民医院效果.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+                <h5></h5>
               </div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/当阳市人民医院内科大楼221.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/三里港村会堂.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/当阳市东城商贸公司招待所.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div></div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/小别墅设计方案效果图.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div></div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/1221.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <!-- 如果需要分页器 -->
-          <!-- 移动设备轮播  -->
-          <div class="swiper-pagination swiper-pagination-b"></div>
-          <!-- 如果需要导航按钮 -->
-          <div class="btn-box" style="display: none;">
-            <span class="perv-btn iconfont">&#xe623;</span>
-            <span class="next-btn iconfont">&#xe621;</span>
-          </div>
-        </div>
-        <div class="index-banner banner-wap" id="index-banner-wap">
-          <ul class="swiper-wrapper">
-            <li class="swiper-slide" style="background: url('static/YP/人民医院效果.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                   <h5>DAPENG Architecture Design Center</h5>
-                  <h5></h5>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/当阳市人民医院内科大楼221.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/三里港村会堂.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/当阳市东城商贸公司招待所.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/小别墅设计方案效果图.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide" style="background: url('static/YP/1221.jpg') no-repeat center;background-size: cover;">
-              <div class="text-box">
-                <div class="a2">
-                  <h2 style="color:red;">大鹏建筑设计事务所</h2>
-                  <h5>DAPENG Architecture Design Center</h5>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <!-- 如果需要分页器 -->
-          <div class="swiper-pagination swiper-pagination-b"></div>
-          <!-- 如果需要导航按钮 -->
-          <div class="btn-box" style="display: none;">
-            <span class="perv-btn iconfont">&#xe623;</span>
-            <span class="next-btn iconfont">&#xe621;</span>
-          </div>
-        </div>
-        <script> 
-          var indexBannerPc = new Swiper ('#index-banner-pc', {
-                    loop:true,
-                    speed: 1500,
-                    effect: 'fade',
-                    autoplay: {
-                        delay: 1500,
-                    },
-                    // 如果需要分页器
-                    pagination: {
-                        el: '#index-banner-pc .swiper-pagination-b',
-                        type : 'progressbar',
-                    },
-                    // 如果需要前进后退按钮
-                    navigation: {
-                        nextEl: '#index-banner-pc .swiper-button-next',
-                        prevEl: '#index-banner-pc .swiper-button-prev',
-                    },
-                });
-                $('#index-banner-pc .btn-box .perv-btn').click(function(){
-                    indexBannerPc.slidePrev();
-                })
-                $('#index-banner-pc .btn-box .next-btn').click(function(){
-                    indexBannerPc.slideNext();
-                })
-                var indexBannerWap = new Swiper ('#index-banner-wap', {
-                    loop:true,
-                    speed: 1500,
-                    effect: 'fade',
-                    autoplay: {
-                        delay: 1500,
-                    },
-                    // 如果需要分页器
-                    pagination: {
-                        el: '#index-banner-wap .swiper-pagination-b',
-                        type : 'progressbar',
-                    },
-                    // 如果需要前进后退按钮
-                    navigation: {
-                        nextEl: '#index-banner-wap .swiper-button-next',
-                        prevEl: '#index-banner-wap .swiper-button-prev',
-                    },
-                });
-                $('#index-banner-wap .btn-box .perv-btn').click(function(){
-                    indexBannerWap.slidePrev();
-                })
-                $('#index-banner-wap .btn-box .next-btn').click(function(){
-                    indexBannerWap.slideNext();
-                })
-            </script>
-      </div>
-      <div class="section">
-        <div class="section2">
-          <style> 
-            .banner-pc{display: block !important;}
-            .banner-wap{display: none !important;}
-            .pc{display: block !important;}
-            .wap{display: none !important;}
-            @media screen and (max-width: 768px){
-              .pc{display: none !important;}
-              .wap{display: block !important;}
-            }
-            @media screen and (max-width: 480px){
-              .banner-pc{display: none !important;}
-              .banner-wap{display: block !important;}
-            }
-            #pc .btn-box{display: none;}
-          </style>
-          <!--PC项目导航-->
-          <div class="box pc" id="pc">
-            <div class="btn-box clearfix">
-              <span class="prev iconfont">&#xe623;</span>
-              <span class="next iconfont">&#xe621;</span>
             </div>
-            <div class="index-Pro" id="index-pro-pc">
-              <ul class="swiper-wrapper">
-                <li class="swiper-slide index-work" data-key="1">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=36.html">
-                    <img src="static/Uploads/201911/5dd7af115c158.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>文化博览</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>文化博览</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="2">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=37.html">
-                    <img src="static/Uploads/201911/5dd8fe524bf23.JPG" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>教育</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd8fe524bf23.JPG" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>教育</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="3">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=38.html">
-                    <img src="static/Uploads/201911/5dde2c79e8343.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>超高层</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dde2c79e8343.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>超高层</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="4">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=39.html">
-                    <img src="static/Uploads/201911/5dd7ae5d0807f.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>体育</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7ae5d0807f.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>体育</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="5">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=40.html">
-                    <img src="static/Uploads/201911/5dd7c43627e34.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>会展</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7c43627e34.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>会展</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="6">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=41.html">
-                    <img src="static/Uploads/201911/5dd7d9e833dbe.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>城市设计</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7d9e833dbe.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>城市设计</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="7">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=44.html">
-                    <img src="static/Uploads/201911/5dd7a787be2ca.JPG" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>医院</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7a787be2ca.JPG" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>医院</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="8">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=45.html">
-                    <img src="static/Uploads/201911/5dd95c9c150eb.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>住宅</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd95c9c150eb.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>住宅</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="9">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=46.html">
-                    <img src="static/Uploads/201911/5dde25d1335d8.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>办公</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dde25d1335d8.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>办公</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="10">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=47.html">
-                    <img src="static/Uploads/201911/5dd7da3abfe25.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>酒店</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7da3abfe25.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>酒店</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="11">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=107.html">
-                    <img src="static/Uploads/201911/5dd7daba10d7b.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>轨道交通</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7daba10d7b.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>轨道交通</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="12">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=108.html">
-                    <img src="static/Uploads/201911/5ddb54c0a105a.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>综合体</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5ddb54c0a105a.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>综合体</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-              <!-- 如果需要导航按钮 -->
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/当阳市人民医院内科大楼221.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
             </div>
-          </div>
-          <!--移动项目导航-->
-          <div class="box wap">
-            <div class="btn-box clearfix">
-              <span class="prev iconfont">&#xe623;</span>
-              <span class="next iconfont">&#xe621;</span>
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/三里港村会堂.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
             </div>
-            <div class="index-Pro" id="index-pro-wap">
-              <ul class="swiper-wrapper">
-                <li class="swiper-slide index-work" data-key="1">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=36.html">
-                    <img src="static/Uploads/201911/5dd7af115c158.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>文化博览</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7af115c158.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>文化博览</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="2">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=37.html">
-                    <img src="static/Uploads/201911/5dd8fe524bf23.JPG" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>教育</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd8fe524bf23.JPG" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>教育</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="3">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=38.html">
-                    <img src="static/Uploads/201911/5dde2c79e8343.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>超高层</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dde2c79e8343.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>超高层</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="4">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=39.html">
-                    <img src="static/Uploads/201911/5dd7ae5d0807f.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>体育</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7ae5d0807f.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>体育</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="5">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=40.html">
-                    <img src="static/Uploads/201911/5dd7c43627e34.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>会展</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7c43627e34.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>会展</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="6">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=41.html">
-                    <img src="static/Uploads/201911/5dd7d9e833dbe.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>城市设计</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7d9e833dbe.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>城市设计</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="7">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=44.html">
-                    <img src="static/Uploads/201911/5dd7a787be2ca.JPG" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>医院</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7a787be2ca.JPG" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>医院</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="8">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=45.html">
-                    <img src="static/Uploads/201911/5dd95c9c150eb.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>住宅</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd95c9c150eb.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>住宅</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="9">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=46.html">
-                    <img src="static/Uploads/201911/5dde25d1335d8.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>办公</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dde25d1335d8.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>办公</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="10">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=47.html">
-                    <img src="static/Uploads/201911/5dd7da3abfe25.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>酒店</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7da3abfe25.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>酒店</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="11">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=107.html">
-                    <img src="static/Uploads/201911/5dd7daba10d7b.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>轨道交通</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5dd7daba10d7b.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>轨道交通</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-                <li class="swiper-slide index-work" data-key="12">
-                  <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=108.html">
-                    <img src="static/Uploads/201911/5ddb54c0a105a.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>综合体</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a> -->
-                  <a href="">
-                    <img src="static/Uploads/201911/5ddb54c0a105a.jpg" alt="" style="max-width: 100%;">
-                    <div class="text-box">
-                      <p>综合体</p>
-                      <i class="iconfont">&#xeb05;</i>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-              <!-- 如果需要导航按钮 -->
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/当阳市东城商贸公司招待所.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
             </div>
-          </div>
-          <div class="nub-list">
-            <ul class="clearfix">
-              <li>
-                <h2>2024<span>年</span></h2>
-                <p>始创于2024年</p>
-                <em></em>
-              </li>
-              <li>
-                <h2>50<span>+</span></h2>
-                <p>建成项目50+</p>
-                <em></em>
-              </li>
-              <li>
-                <h2>1<span>+</span></h2>
-                <p>全院1多位专业技术人才</p>
-                <em></em>
-              </li>
-              <li>
-                <h2>9<span>+</span></h2>
-                <p>荣获各类奖项9多项</p>
-                <em></em>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <script>
-          var indexPro1 = new Swiper ('#index-pro-pc', {
-            speed: 1000,
-            cssMode: true,
-            slidesPerGroup : 1,
-            slidesPerView: 12,
-            spaceBetween : 3,
-            // 如果需要前进后退按钮
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-          });
-          var indexPro2 = new Swiper ('#index-pro-wap', {
-            speed: 500,
-            cssMode: true,
-            slidesPerGroup : 1,
-            slidesPerView: 3,
-            spaceBetween : 3,
-            // 如果需要前进后退按钮
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-          });
-          $('.pc .btn-box span.prev').click(function(){indexPro1.slidePrev();})
-            $('.pc .btn-box span.next').click(function(){indexPro1.slideNext();})
-              $('.wap .btn-box span.prev').click(function(){indexPro2.slidePrev();})
-                $('.wap .btn-box span.next').click(function(){indexPro2.slideNext();})
-        </script>
-      </div>
-      <div class="section section3">
-        <div class="news-box">
-          <div class="tit">
-            <h2>News</h2>
-            <p>新闻</p>
-            <!-- <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html">MORE<i class="iconfont">&#xeb05;</i></a> -->
-            <a href="">MORE<i class="iconfont">&#xeb05;</i></a>
-          </div>
-          <div class="con">
-            <ul class="clearfix">
-              <style>
-                .news-box .con ul li{clear: none;}
-                @media screen and (max-width: 768px){
-                  .news-box .con ul li {
-                    float: none;
-                    margin: 0px auto 15px auto;
-                    width: 90%;
-                  }
-                  .news-box .con ul li.one{float: none;}
-                }
-              </style>
-              <li class="one" >
-                <!-- <a href="index.php%3Fa=show&amp;m=Article&amp;id=1817.html">
-                  <div class="img-box">
-                    <img src="static/Uploads/201911/5dd6ae3e2f4f3.jpg" alt="">
-                  </div>
-                  <div class="text-box">
-                    <h2>我心向党 初心如磐 ——U7+高校设计院百个红色记忆设计作品联展·揭幕</h2>
-                    <p>6月30日下午，“'我心向党&nbsp;初心如磐'——U7+高校设计院百个红色记忆设计作品联展”在建...</p>
-                    <em></em>
-                    <span>2021-07-09</span>
-                    <i class="iconfont">&#xeb05;</i>
-                  </div>
-                </a> -->
-                <a href="">
-                  <div class="img-box">
-                    <img src="static/Uploads/201911/5dd6ae3e2f4f3.jpg" alt="">
-                  </div>
-                  <div class="text-box">
-                    <h2>我心向党 初心如磐 ——U7+高校设计院百个红色记忆设计作品联展·揭幕</h2>
-                    <p>6月30日下午，“'我心向党&nbsp;初心如磐'——U7+高校设计院百个红色记忆设计作品联展”在建...</p>
-                    <em></em>
-                    <span>2021-07-09</span>
-                    <i class="iconfont">&#xeb05;</i>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <!-- <a href="index.php%3Fa=show&amp;m=Article&amp;id=1819.html">
-                  <div class="img-box">
-                    <img src="static/Uploads/201911/5dd6cf944b1c8.jpg" alt="">
-                  </div>
-                  <div class="text-box">
-                    <h2>奋斗百年路 启航新征程｜庆祝中国共产党成立100周年</h2>
-                    <p>﻿﻿&nbsp;百年征程波澜壮阔，百年初心历久弥坚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp...</p>
-                    <em></em>
-                    <span>2021-07-09</span>
-                    <i class="iconfont">&#xeb05;</i>
-                  </div>
-                </a> -->
-                <a href="">
-                  <div class="img-box">
-                    <img src="static/Uploads/201911/5dd6cf944b1c8.jpg" alt="">
-                  </div>
-                  <div class="text-box">
-                    <h2>奋斗百年路 启航新征程｜庆祝中国共产党成立100周年</h2>
-                    <p>﻿﻿&nbsp;百年征程波澜壮阔，百年初心历久弥坚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp...</p>
-                    <em></em>
-                    <span>2021-07-09</span>
-                    <i class="iconfont">&#xeb05;</i>
-                  </div>
-                </a>
-              </li>
-              <p style="clear: both;"></p>
-              <li>
-                <!-- <a href="index.php%3Fa=show&amp;m=Article&amp;id=1815.html">
-                  <div class="img-box">
-                    <img src="static/Uploads/202107/thumb_170_128_60ed5566cf5e4.jpg" alt="">
-                  </div>
-                  <div class="text-box">
-                    <h2>你好！设计者专访</h2>
-                    <p>﻿﻿﻿﻿首座跨江步行桥&nbsp;历时500多天、30多次雨篷测试、50多次桥漆比选、200多个造型方案、1000多...</p>
-                    <em></em>
-                    <span>2021-07-05</span>
-                    <i class="iconfont">&#xeb05;</i>
-                  </div>
-                </a> -->
-                <a href="">
-                  <div class="img-box">
-                    <img src="static/Uploads/202107/thumb_170_128_60ed5566cf5e4.jpg" alt="">
-                  </div>
-                  <div class="text-box">
-                    <h2>你好！设计者专访</h2>
-                    <p>﻿﻿﻿﻿首座跨江步行桥&nbsp;历时500多天、30多次雨篷测试、50多次桥漆比选、200多个造型方案、1000多...</p>
-                    <em></em>
-                    <span>2021-07-05</span>
-                    <i class="iconfont">&#xeb05;</i>
-                  </div>
-                </a>
-              </li>
-              <p style="clear: both;"></p>
-              <li>
-                <!-- <a href="index.php%3Fa=show&amp;m=Article&amp;id=1811.html">
-                  <div class="img-box">
-                    <img src="static/Uploads/201911/5dde2c79e8343.jpg" alt="">
-                  </div>
-                  <div class="text-box">
-                    <h2>U7+Design 中青年建筑师设计论坛·顺利召开</h2>
-                    <p>4月12日，由大鹏建筑设计事务所承办的第五届“U7+Design&nbsp;中青年建筑师设计论坛”（以下...</p>
-                    <em></em>
-                    <span>2021-04-19</span>
-                    <i class="iconfont">&#xeb05;</i>
-                  </div>
-                </a> -->
-                <a href="">
-                  <div class="img-box">
-                    <img src="static/Uploads/201911/5dde2c79e8343.jpg" alt="">
-                  </div>
-                  <div class="text-box">
-                    <h2>U7+Design 中青年建筑师设计论坛·顺利召开</h2>
-                    <p>4月12日，由大鹏建筑设计事务所承办的第五届“U7+Design&nbsp;中青年建筑师设计论坛”（以下...</p>
-                    <em></em>
-                    <span>2021-04-19</span>
-                    <i class="iconfont">&#xeb05;</i>
-                  </div>
-                </a>
-              </li>
-              <p style="clear: both;"></p>
-            </ul>
-          </div>
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/小别墅设计方案效果图.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/1221.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!-- 如果需要分页器 -->
+        <!-- 移动设备轮播  -->
+        <div class="swiper-pagination swiper-pagination-b"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="btn-box" style="display: none;">
+          <span class="perv-btn iconfont">&#xe623;</span>
+          <span class="next-btn iconfont">&#xe621;</span>
         </div>
       </div>
-      <div class="section" id="section-footer">
-        <div id="footer">
-          <div class="footer-con clearfix">
-            <div class="l-b">
-              <div class="tel-box">
-                <p>
-                  <span class="cat">业务联系：</span>
-                  <span class="item">18527829398</span>
-                  <span class="item">18527829398</span>
-                  <span class="item">业务邮箱：yp523ne@163.com</span>
-                </p>
-              </div>
-              <div class="tel-box">
-                <p>
-                  <span class="cat">人才招聘：</span>
-                  <span class="item">18527829398</span>
-                  <span class="item">传真：18527829398</span>
-                  <span class="item">招聘邮箱：yp523ne@163.com</span>
-                </p>
-              </div>
-              <div class="tel-box">
-                <p>
-                  <span class="cat">投诉电话：</span>
-                  <span class="item">18527829398</span>
-                  <span class="item">传真：18527829398</span>
-                  <span class="item">投诉邮箱：yp523ne@163.com</span>
-                </p>
+      <div class="index-banner banner-wap" id="index-banner-wap">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide"
+            style="background: url('assets/YP/人民医院效果.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+                <h5></h5>
               </div>
             </div>
-            <div class="r-b">
-              <img src="static/Public/2019/img/IMG_2231.png" alt="">
-              <p>地址：湖北省当阳市华强凤凰城10-803</p>
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/当阳市人民医院内科大楼221.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
             </div>
-          </div>
-          <div class="x"></div>
-          <div class="copyright">Copyright © 2024 大鹏建筑设计事务所 版权所有
-            <a href="https://beian.miit.gov.cn" target="_blank" style="color: #888;margin-left: 5px;">鄂ICP备</a>&nbsp;
-            <a href="shengming.html" style="color:#888;" target="_blank">网站声明</a>
-          </div>
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/三里港村会堂.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/当阳市东城商贸公司招待所.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/小别墅设计方案效果图.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide"
+            style="background: url('assets/YP/1221.jpg') no-repeat center;background-size: cover;">
+            <div class="text-box">
+              <div class="a2">
+                <h2 style="color:red;">大鹏建筑设计事务所</h2>
+                <h5>DAPENG Architecture Design Center</h5>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination swiper-pagination-b"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="btn-box" style="display: none;">
+          <span class="perv-btn iconfont">&#xe623;</span>
+          <span class="next-btn iconfont">&#xe621;</span>
         </div>
       </div>
-    </div>
-    <style>
-      .index-Pro ul li{
-        cursor: pointer;
-        transition: all 0.2s;
-        z-index: 0;
-      }
-      .index-Pro ul li img{
-        cursor: pointer;
-        transition: all 0.2s;
-      }
-    </style>
-    <script>
-      var prow;
-      $('#index-pro-pc ul li').hover(function () {
-        var key=$(this).attr('data-key');
-        prow= $(this).css('width');
-        if(key!=1 && key!=12){
-          $('#index-pro-pc ul li').css({'transform':'translateX(-50px)','-ms-transform':'translateX(-50px)','-webkit-transform':'translateX(-50px)'});
-        }
-        if(key==12){
-          $('#index-pro-pc ul li').css({'transform':'translateX(-150px)','-ms-transform':'translateX(-150px)','-webkit-transform':'translateX(-150px)'});
-        }
-        $(this).css({'width':'20%'});
-      },function () {
-        $('#index-pro-pc ul li').css({'transform':'translateX(0px)','-ms-transform':'translateX(0px)','-webkit-transform':'translateX(0px)'});
-        $(this).css({'width':prow});
-      })
-        $('#fullpage').fullpage({
-          navigation : true,
-          afterLoad: function(anchorLink, index){
-            if(index == 2){
-              $("#header").removeClass("on");
-              $(".logo1").slideDown(500);
-              // $(".logo2").slideUp(1000);
-            }
-            if(index == 1){
-              $("#header").addClass("on");
-              $(".logo1").slideUp(1000);
-              $(".logo2").slideDown(500);
-            }
+      <script>
+        var indexBannerPc = new Swiper('#index-banner-pc', {
+          loop: true,
+          speed: 1500,
+          effect: 'fade',
+          autoplay: {
+            delay: 1500,
+          },
+          // 如果需要分页器
+          pagination: {
+            el: '#index-banner-pc .swiper-pagination-b',
+            type: 'progressbar',
+          },
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '#index-banner-pc .swiper-button-next',
+            prevEl: '#index-banner-pc .swiper-button-prev',
           },
         });
-    </script>
-    <style>
-      .logo1{display: none !important;}
-    </style>
-    <!--底部footer-->
-    <div class="footer-zhe"></div>
-    <!--底部导航-->
-    <div id="footer-btn">
-      <ul class="clearfix">
-        <li class="on">
-          <a href="">
-            <span>
-              <i class="iconfont">&#xe60f;</i>
-            </span>
-            <p>首页</p>
-          </a>
-        </li>
-        <li >
-          <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=21.html">
-            <span>
-              <i class="iconfont">&#xe6a7;</i>
-            </span>
-            <p>作品</p>
-          </a> -->
-          <a href="">
-            <span>
-              <i class="iconfont">&#xe6a7;</i>
-            </span>
-            <p>作品</p>
-          </a>
-        </li>
-        <li >
-          <!-- <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html">
-            <span><i class="iconfont">&#xe63a;</i></span>
-            <p>新闻</p>
-          </a> -->
-          <a href="">
-            <span><i class="iconfont">&#xe63a;</i></span>
-            <p>新闻</p>
-          </a>
-        </li>
-        <li >
-          <!-- <a href="index.php%3Fa=index&amp;m=Page&amp;id=58.html">
-            <span><i class="iconfont">&#xe606;</i></span>
-            <p>联系</p>
-          </a> -->
-          <a href="">
-            <span><i class="iconfont">&#xe606;</i></span>
-            <p>联系</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <style>
-      .video{
-        padding: 5px;
-        position: fixed;
-        bottom: 80px;
-        right: 15px;
-        background: #8a3433;
-        width: 100px;
-        border-radius: 10px;
-        cursor: pointer;
-      }
-      .video img{
-        display: block;
-        margin: 0px auto 5px auto;
-        width: 80px;
-        height: auto;
-        border-radius: 100%;
-      }
-      .video .top{
-        width: 88%;
-        margin: 10px auto 5px auto;
-        clear: both;
-        height:auto;
-        position: relative;
-      }
-      .video .info{
-        margin: 0px auto 10px auto;
-        width: 90%;
-        color: #000  ;
-        text-align: center;
-        font-size: 12px;
-        letter-spacing: 2px;
-        line-height: 20px;
-        color: #fff;
-      }
-      .close{
-        position:absolute;
-        right: 8px;
-        top:5px;
-        width:0.1em;
-        height:0.7em;
-        background: #fff;
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-        display: inline-block;
-      }
-      .close:after{
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        width:0.1em;
-        height:0.7em;
-        background: #fff;
-        -webkit-transform: rotate(270deg);
-        -moz-transform: rotate(270deg);
-        -o-transform: rotate(270deg);
-        -ms-transform: rotate(270deg);
-        transform: rotate(270deg);
-      }
-      @media screen and (max-width: 768px){
-        .video{width:85px;}
-        .video img{
-          margin:0px auto;
-          max-width:100%;
-        }
-      }
-    </style>
-    <div class="video"  style="display:none;">
-      <p class="top">
-        <img src="static/Public/2019/img/IMG_2231.png" alt="大鹏建筑设计事务所40周年院庆-传承先导片" style="cursor: pointer;" onclick="show_video();">
-      </p>
-      <span class="close" onclick="hide_video();"></span>
-      <p class="info" onclick="show_video();">建院1周年<br>传承先导片</p>
-    </div>
-    <script src="static/Public/2019/layer/layer.js"></script>
-    <script>
-      if(!sessionStorage.getItem('video-close')){
-        $(".video").show();
-      }
-      function hide_video() {
-        sessionStorage.setItem('video-close',1);
-        $(".video").hide();
-      }
-      function show_video(){
-        layer.open({
-          type: 2,
-          title: false,
-          area: ['630px', '360px'],
-          shade: 0.8,
-          closeBtn: 0,
-          shadeClose: true,
-          content: "/Uploads/video.mp4"
+        $('#index-banner-pc .btn-box .perv-btn').click(function () {
+          indexBannerPc.slidePrev();
+        })
+        $('#index-banner-pc .btn-box .next-btn').click(function () {
+          indexBannerPc.slideNext();
+        })
+        var indexBannerWap = new Swiper('#index-banner-wap', {
+          loop: true,
+          speed: 1500,
+          effect: 'fade',
+          autoplay: {
+            delay: 1500,
+          },
+          // 如果需要分页器
+          pagination: {
+            el: '#index-banner-wap .swiper-pagination-b',
+            type: 'progressbar',
+          },
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '#index-banner-wap .swiper-button-next',
+            prevEl: '#index-banner-wap .swiper-button-prev',
+          },
         });
-        var ww=window.innerWidth;
-        $(".layui-layer-iframe").css({"width":ww+"px","left":"0px"});
-        $("video").css({"max-width":"96%"});
+        $('#index-banner-wap .btn-box .perv-btn').click(function () {
+          indexBannerWap.slidePrev();
+        })
+        $('#index-banner-wap .btn-box .next-btn').click(function () {
+          indexBannerWap.slideNext();
+        })
+      </script>
+    </div>
+    <div class="section">
+      <div class="section2">
+        <style>
+          .banner-pc {
+            display: block !important;
+          }
+
+          .banner-wap {
+            display: none !important;
+          }
+
+          .pc {
+            display: block !important;
+          }
+
+          .wap {
+            display: none !important;
+          }
+
+          @media screen and (max-width: 768px) {
+            .pc {
+              display: none !important;
+            }
+
+            .wap {
+              display: block !important;
+            }
+          }
+
+          @media screen and (max-width: 480px) {
+            .banner-pc {
+              display: none !important;
+            }
+
+            .banner-wap {
+              display: block !important;
+            }
+          }
+
+          #pc .btn-box {
+            display: none;
+          }
+        </style>
+        <!--PC项目导航-->
+        <div class="box pc" id="pc">
+          <div class="btn-box clearfix">
+            <span class="prev iconfont">&#xe623;</span>
+            <span class="next iconfont">&#xe621;</span>
+          </div>
+          <div class="index-Pro" id="index-pro-pc">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide index-work" data-key="1">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=36.html">
+                    <img src="assets/Uploads/201911/5dd7af115c158.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>文化博览</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>文化博览</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="2">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=37.html">
+                    <img src="assets/Uploads/201911/5dd8fe524bf23.JPG" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>教育</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd8fe524bf23.JPG" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>教育</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="3">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=38.html">
+                    <img src="assets/Uploads/201911/5dde2c79e8343.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>超高层</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dde2c79e8343.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>超高层</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="4">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=39.html">
+                    <img src="assets/Uploads/201911/5dd7ae5d0807f.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>体育</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7ae5d0807f.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>体育</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="5">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=40.html">
+                    <img src="assets/Uploads/201911/5dd7c43627e34.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>会展</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7c43627e34.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>会展</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="6">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=41.html">
+                    <img src="assets/Uploads/201911/5dd7d9e833dbe.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>城市设计</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7d9e833dbe.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>城市设计</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="7">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=44.html">
+                    <img src="assets/Uploads/201911/5dd7a787be2ca.JPG" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>医院</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7a787be2ca.JPG" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>医院</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="8">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=45.html">
+                    <img src="assets/Uploads/201911/5dd95c9c150eb.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>住宅</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd95c9c150eb.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>住宅</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="9">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=46.html">
+                    <img src="assets/Uploads/201911/5dde25d1335d8.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>办公</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dde25d1335d8.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>办公</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="10">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=47.html">
+                    <img src="assets/Uploads/201911/5dd7da3abfe25.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>酒店</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7da3abfe25.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>酒店</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="11">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=107.html">
+                    <img src="assets/Uploads/201911/5dd7daba10d7b.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>轨道交通</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7daba10d7b.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>轨道交通</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="12">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=108.html">
+                    <img src="assets/Uploads/201911/5ddb54c0a105a.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>综合体</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5ddb54c0a105a.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>综合体</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!-- 如果需要导航按钮 -->
+          </div>
+        </div>
+        <!--移动项目导航-->
+        <div class="box wap">
+          <div class="btn-box clearfix">
+            <span class="prev iconfont">&#xe623;</span>
+            <span class="next iconfont">&#xe621;</span>
+          </div>
+          <div class="index-Pro" id="index-pro-wap">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide index-work" data-key="1">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=36.html">
+                    <img src="assets/Uploads/201911/5dd7af115c158.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>文化博览</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7af115c158.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>文化博览</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="2">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=37.html">
+                    <img src="assets/Uploads/201911/5dd8fe524bf23.JPG" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>教育</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd8fe524bf23.JPG" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>教育</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="3">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=38.html">
+                    <img src="assets/Uploads/201911/5dde2c79e8343.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>超高层</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dde2c79e8343.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>超高层</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="4">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=39.html">
+                    <img src="assets/Uploads/201911/5dd7ae5d0807f.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>体育</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7ae5d0807f.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>体育</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="5">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=40.html">
+                    <img src="assets/Uploads/201911/5dd7c43627e34.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>会展</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7c43627e34.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>会展</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="6">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=41.html">
+                    <img src="assets/Uploads/201911/5dd7d9e833dbe.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>城市设计</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7d9e833dbe.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>城市设计</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="7">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=44.html">
+                    <img src="assets/Uploads/201911/5dd7a787be2ca.JPG" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>医院</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7a787be2ca.JPG" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>医院</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="8">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=45.html">
+                    <img src="assets/Uploads/201911/5dd95c9c150eb.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>住宅</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd95c9c150eb.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>住宅</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="9">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=46.html">
+                    <img src="assets/Uploads/201911/5dde25d1335d8.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>办公</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dde25d1335d8.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>办公</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="10">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=47.html">
+                    <img src="assets/Uploads/201911/5dd7da3abfe25.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>酒店</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7da3abfe25.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>酒店</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="11">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=107.html">
+                    <img src="assets/Uploads/201911/5dd7daba10d7b.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>轨道交通</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5dd7daba10d7b.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>轨道交通</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide index-work" data-key="12">
+                <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=108.html">
+                    <img src="assets/Uploads/201911/5ddb54c0a105a.jpg" alt="" style="max-width: 100%;">
+                    <div class="text-box">
+                      <p>综合体</p>
+                      <i class="iconfont">&#xeb05;</i>
+                    </div>
+                  </a> -->
+                <a href="">
+                  <img src="assets/Uploads/201911/5ddb54c0a105a.jpg" alt="" style="max-width: 100%;">
+                  <div class="text-box">
+                    <p>综合体</p>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!-- 如果需要导航按钮 -->
+          </div>
+        </div>
+        <div class="nub-list">
+          <ul class="clearfix">
+            <li>
+              <h2>2024<span>年</span></h2>
+              <p>始创于2024年</p>
+              <em></em>
+            </li>
+            <li>
+              <h2>50<span>+</span></h2>
+              <p>建成项目50+</p>
+              <em></em>
+            </li>
+            <li>
+              <h2>1<span>+</span></h2>
+              <p>全院1多位专业技术人才</p>
+              <em></em>
+            </li>
+            <li>
+              <h2>9<span>+</span></h2>
+              <p>荣获各类奖项9多项</p>
+              <em></em>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <script>
+        var indexPro1 = new Swiper('#index-pro-pc', {
+          speed: 1000,
+          cssMode: true,
+          slidesPerGroup: 1,
+          slidesPerView: 12,
+          spaceBetween: 3,
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+        var indexPro2 = new Swiper('#index-pro-wap', {
+          speed: 500,
+          cssMode: true,
+          slidesPerGroup: 1,
+          slidesPerView: 3,
+          spaceBetween: 3,
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+        $('.pc .btn-box span.prev').click(function () {indexPro1.slidePrev();})
+        $('.pc .btn-box span.next').click(function () {indexPro1.slideNext();})
+        $('.wap .btn-box span.prev').click(function () {indexPro2.slidePrev();})
+        $('.wap .btn-box span.next').click(function () {indexPro2.slideNext();})
+      </script>
+    </div>
+    <div class="section section3">
+      <div class="news-box">
+        <div class="tit">
+          <h2>News</h2>
+          <p>新闻</p>
+          <!-- <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html">MORE<i class="iconfont">&#xeb05;</i></a> -->
+          <a href="">MORE<i class="iconfont">&#xeb05;</i></a>
+        </div>
+        <div class="con">
+          <ul class="clearfix">
+            <style>
+              .news-box .con ul li {
+                clear: none;
+              }
+
+              @media screen and (max-width: 768px) {
+                .news-box .con ul li {
+                  float: none;
+                  margin: 0px auto 15px auto;
+                  width: 90%;
+                }
+
+                .news-box .con ul li.one {
+                  float: none;
+                }
+              }
+            </style>
+            <li class="one">
+              <!-- <a href="index.php%3Fa=show&amp;m=Article&amp;id=1817.html">
+                  <div class="img-box">
+                    <img src="assets/Uploads/201911/5dd6ae3e2f4f3.jpg" alt="">
+                  </div>
+                  <div class="text-box">
+                    <h2>我心向党 初心如磐 ——U7+高校设计院百个红色记忆设计作品联展·揭幕</h2>
+                    <p>6月30日下午，“'我心向党&nbsp;初心如磐'——U7+高校设计院百个红色记忆设计作品联展”在建...</p>
+                    <em></em>
+                    <span>2021-07-09</span>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a> -->
+              <a href="">
+                <div class="img-box">
+                  <img src="assets/Uploads/201911/5dd6ae3e2f4f3.jpg" alt="">
+                </div>
+                <div class="text-box">
+                  <h2>我心向党 初心如磐 ——U7+高校设计院百个红色记忆设计作品联展·揭幕</h2>
+                  <p>6月30日下午，“'我心向党&nbsp;初心如磐'——U7+高校设计院百个红色记忆设计作品联展”在建...</p>
+                  <em></em>
+                  <span>2021-07-09</span>
+                  <i class="iconfont">&#xeb05;</i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <!-- <a href="index.php%3Fa=show&amp;m=Article&amp;id=1819.html">
+                  <div class="img-box">
+                    <img src="assets/Uploads/201911/5dd6cf944b1c8.jpg" alt="">
+                  </div>
+                  <div class="text-box">
+                    <h2>奋斗百年路 启航新征程｜庆祝中国共产党成立100周年</h2>
+                    <p>﻿﻿&nbsp;百年征程波澜壮阔，百年初心历久弥坚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp...</p>
+                    <em></em>
+                    <span>2021-07-09</span>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a> -->
+              <a href="">
+                <div class="img-box">
+                  <img src="assets/Uploads/201911/5dd6cf944b1c8.jpg" alt="">
+                </div>
+                <div class="text-box">
+                  <h2>奋斗百年路 启航新征程｜庆祝中国共产党成立100周年</h2>
+                  <p>﻿﻿&nbsp;百年征程波澜壮阔，百年初心历久弥坚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp...</p>
+                  <em></em>
+                  <span>2021-07-09</span>
+                  <i class="iconfont">&#xeb05;</i>
+                </div>
+              </a>
+            </li>
+            <p style="clear: both;"></p>
+            <li>
+              <!-- <a href="index.php%3Fa=show&amp;m=Article&amp;id=1815.html">
+                  <div class="img-box">
+                    <img src="assets/Uploads/202107/thumb_170_128_60ed5566cf5e4.jpg" alt="">
+                  </div>
+                  <div class="text-box">
+                    <h2>你好！设计者专访</h2>
+                    <p>﻿﻿﻿﻿首座跨江步行桥&nbsp;历时500多天、30多次雨篷测试、50多次桥漆比选、200多个造型方案、1000多...</p>
+                    <em></em>
+                    <span>2021-07-05</span>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a> -->
+              <a href="">
+                <div class="img-box">
+                  <img src="assets/Uploads/202107/thumb_170_128_60ed5566cf5e4.jpg" alt="">
+                </div>
+                <div class="text-box">
+                  <h2>你好！设计者专访</h2>
+                  <p>﻿﻿﻿﻿首座跨江步行桥&nbsp;历时500多天、30多次雨篷测试、50多次桥漆比选、200多个造型方案、1000多...</p>
+                  <em></em>
+                  <span>2021-07-05</span>
+                  <i class="iconfont">&#xeb05;</i>
+                </div>
+              </a>
+            </li>
+            <p style="clear: both;"></p>
+            <li>
+              <!-- <a href="index.php%3Fa=show&amp;m=Article&amp;id=1811.html">
+                  <div class="img-box">
+                    <img src="assets/Uploads/201911/5dde2c79e8343.jpg" alt="">
+                  </div>
+                  <div class="text-box">
+                    <h2>U7+Design 中青年建筑师设计论坛·顺利召开</h2>
+                    <p>4月12日，由大鹏建筑设计事务所承办的第五届“U7+Design&nbsp;中青年建筑师设计论坛”（以下...</p>
+                    <em></em>
+                    <span>2021-04-19</span>
+                    <i class="iconfont">&#xeb05;</i>
+                  </div>
+                </a> -->
+              <a href="">
+                <div class="img-box">
+                  <img src="assets/Uploads/201911/5dde2c79e8343.jpg" alt="">
+                </div>
+                <div class="text-box">
+                  <h2>U7+Design 中青年建筑师设计论坛·顺利召开</h2>
+                  <p>4月12日，由大鹏建筑设计事务所承办的第五届“U7+Design&nbsp;中青年建筑师设计论坛”（以下...</p>
+                  <em></em>
+                  <span>2021-04-19</span>
+                  <i class="iconfont">&#xeb05;</i>
+                </div>
+              </a>
+            </li>
+            <p style="clear: both;"></p>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="section-footer">
+      <div id="footer">
+        <div class="footer-con clearfix">
+          <div class="l-b">
+            <div class="tel-box">
+              <p>
+                <span class="cat">业务联系：</span>
+                <span class="item">18527829398</span>
+                <span class="item">18527829398</span>
+                <span class="item">业务邮箱：yp523ne@163.com</span>
+              </p>
+            </div>
+            <div class="tel-box">
+              <p>
+                <span class="cat">人才招聘：</span>
+                <span class="item">18527829398</span>
+                <span class="item">传真：18527829398</span>
+                <span class="item">招聘邮箱：yp523ne@163.com</span>
+              </p>
+            </div>
+            <div class="tel-box">
+              <p>
+                <span class="cat">投诉电话：</span>
+                <span class="item">18527829398</span>
+                <span class="item">传真：18527829398</span>
+                <span class="item">投诉邮箱：yp523ne@163.com</span>
+              </p>
+            </div>
+          </div>
+          <div class="r-b">
+            <img src="assets/Public/2019/img/IMG_2231.png" alt="">
+            <p>地址：湖北省当阳市华强凤凰城10-803</p>
+          </div>
+        </div>
+        <div class="x"></div>
+        <div class="copyright">Copyright © 2024 大鹏建筑设计事务所 版权所有
+          <a href="https://beian.miit.gov.cn" target="_blank" style="color: #888;margin-left: 5px;">鄂ICP备</a>&nbsp;
+          <a href="shengming.html" style="color:#888;" target="_blank">网站声明</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .index-Pro ul li {
+      cursor: pointer;
+      transition: all 0.2s;
+      z-index: 0;
+    }
+
+    .index-Pro ul li img {
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+  </style>
+  <script>
+    var prow;
+    $('#index-pro-pc ul li').hover(function () {
+      var key = $(this).attr('data-key');
+      prow = $(this).css('width');
+      if (key != 1 && key != 12) {
+        $('#index-pro-pc ul li').css({'transform': 'translateX(-50px)', '-ms-transform': 'translateX(-50px)', '-webkit-transform': 'translateX(-50px)'});
       }
-      /*
-      $(window).resize(function(){
-      autoScrolling();
+      if (key == 12) {
+        $('#index-pro-pc ul li').css({'transform': 'translateX(-150px)', '-ms-transform': 'translateX(-150px)', '-webkit-transform': 'translateX(-150px)'});
+      }
+      $(this).css({'width': '20%'});
+    }, function () {
+      $('#index-pro-pc ul li').css({'transform': 'translateX(0px)', '-ms-transform': 'translateX(0px)', '-webkit-transform': 'translateX(0px)'});
+      $(this).css({'width': prow});
+    })
+    $('#fullpage').fullpage({
+      navigation: true,
+      afterLoad: function (anchorLink, index) {
+        if (index == 2) {
+          $("#header").removeClass("on");
+          $(".logo1").slideDown(500);
+          // $(".logo2").slideUp(1000);
+        }
+        if (index == 1) {
+          $("#header").addClass("on");
+          $(".logo1").slideUp(1000);
+          $(".logo2").slideDown(500);
+        }
+      },
+    });
+  </script>
+  <style>
+    .logo1 {
+      display: none !important;
+    }
+  </style>
+  <!--底部footer-->
+  <div class="footer-zhe"></div>
+  <!--底部导航-->
+  <div id="footer-btn">
+    <ul class="clearfix">
+      <li class="on">
+        <a href="">
+          <span>
+            <i class="iconfont">&#xe60f;</i>
+          </span>
+          <p>首页</p>
+        </a>
+      </li>
+      <li>
+        <!-- <a href="index.php%3Fa=index&amp;m=Product&amp;id=21.html">
+            <span>
+              <i class="iconfont">&#xe6a7;</i>
+            </span>
+            <p>作品</p>
+          </a> -->
+        <a href="">
+          <span>
+            <i class="iconfont">&#xe6a7;</i>
+          </span>
+          <p>作品</p>
+        </a>
+      </li>
+      <li>
+        <!-- <a href="index.php%3Fa=index&amp;m=Article&amp;id=52.html">
+            <span><i class="iconfont">&#xe63a;</i></span>
+            <p>新闻</p>
+          </a> -->
+        <a href="">
+          <span><i class="iconfont">&#xe63a;</i></span>
+          <p>新闻</p>
+        </a>
+      </li>
+      <li>
+        <!-- <a href="index.php%3Fa=index&amp;m=Page&amp;id=58.html">
+            <span><i class="iconfont">&#xe606;</i></span>
+            <p>联系</p>
+          </a> -->
+        <a href="">
+          <span><i class="iconfont">&#xe606;</i></span>
+          <p>联系</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <style>
+    .video {
+      padding: 5px;
+      position: fixed;
+      bottom: 80px;
+      right: 15px;
+      background: #8a3433;
+      width: 100px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .video img {
+      display: block;
+      margin: 0px auto 5px auto;
+      width: 80px;
+      height: auto;
+      border-radius: 100%;
+    }
+
+    .video .top {
+      width: 88%;
+      margin: 10px auto 5px auto;
+      clear: both;
+      height: auto;
+      position: relative;
+    }
+
+    .video .info {
+      margin: 0px auto 10px auto;
+      width: 90%;
+      color: #000;
+      text-align: center;
+      font-size: 12px;
+      letter-spacing: 2px;
+      line-height: 20px;
+      color: #fff;
+    }
+
+    .close {
+      position: absolute;
+      right: 8px;
+      top: 5px;
+      width: 0.1em;
+      height: 0.7em;
+      background: #fff;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      display: inline-block;
+    }
+
+    .close:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 0.1em;
+      height: 0.7em;
+      background: #fff;
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg);
+    }
+
+    @media screen and (max-width: 768px) {
+      .video {
+        width: 85px;
+      }
+
+      .video img {
+        margin: 0px auto;
+        max-width: 100%;
+      }
+    }
+  </style>
+  <div class="video" style="display:none;">
+    <p class="top">
+      <img src="assets/Public/2019/img/IMG_2231.png" alt="大鹏建筑设计事务所40周年院庆-传承先导片" style="cursor: pointer;"
+        onclick="show_video();">
+    </p>
+    <span class="close" onclick="hide_video();"></span>
+    <p class="info" onclick="show_video();">建院1周年<br>传承先导片</p>
+  </div>
+  <script src="assets/Public/2019/layer/layer.js"></script>
+  <script>
+    if (!sessionStorage.getItem('video-close')) {
+      $(".video").show();
+    }
+    function hide_video() {
+      sessionStorage.setItem('video-close', 1);
+      $(".video").hide();
+    }
+    function show_video() {
+      layer.open({
+        type: 2,
+        title: false,
+        area: ['630px', '360px'],
+        shade: 0.8,
+        closeBtn: 0,
+        shadeClose: true,
+        content: "/Uploads/video.mp4"
       });
-      function autoScrolling(){
-      var $ww = $(window).width();
-      if($ww < 1024){
-      $.fn.fullpage.setAutoScrolling(false);
-      } else {
-      $.fn.fullpage.setAutoScrolling(true);
-      }
-      }
-      autoScrolling();*/
-    </script>
-  </body>
+      var ww = window.innerWidth;
+      $(".layui-layer-iframe").css({"width": ww + "px", "left": "0px"});
+      $("video").css({"max-width": "96%"});
+    }
+      /*
+  $(window).resize(function(){
+  autoScrolling();
+  });
+  function autoScrolling(){
+  var $ww = $(window).width();
+  if($ww < 1024){
+  $.fn.fullpage.setAutoScrolling(false);
+  } else {
+  $.fn.fullpage.setAutoScrolling(true);
+  }
+  }
+  autoScrolling();*/
+  </script>
+</body>
+
 </html>
